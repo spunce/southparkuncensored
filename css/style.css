@@ -1,0 +1,169 @@
+:root {
+  --opacity: 1;
+}
+
+* {
+  font-family: "Times New Roman", Times, serif, monospace;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+h1 a {
+  color:black;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 1.14rem;
+}
+
+h2 a {
+  font-family: sans-serif;
+}
+
+#uncensored {
+  font-style: italic;
+}
+
+.title-border {
+  margin: auto;
+  height: 0.6rem;
+  margin-top: -0.75rem;
+  background: linear-gradient(90deg, rgba(81,97,172,var(--opacity)) 0%, rgba(81,97,172,var(--opacity)) 25%, rgba(108,192,105,var(--opacity)) 25%, rgba(108,192,105,var(--opacity)) 50%, rgba(226,56,63,var(--opacity)) 50%, rgba(226,56,63,var(--opacity)) 75%, rgba(244,115,33,var(--opacity)) 75%, rgba(244,115,33,var(--opacity)) 100%);
+  max-width: 21rem;
+}
+
+body {
+  text-align: center;
+}
+
+a {
+  hyphens: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+#intro {
+  max-width: 42rem;
+  min-height: 11rem;
+  margin: auto;
+  text-align: left;
+}
+
+#randy {
+  float: left;
+  width: 5.764rem;
+  height: 11rem;
+  margin-right: 0.75rem;
+}
+
+#quotes p {
+  margin: 0.5rem;
+}
+
+#video-container {
+  max-width: 60rem;
+  margin: auto;
+}
+
+#video-container div {
+  display: inline-block;
+}
+
+.video-content h2 {
+  margin-bottom: 0.1rem;
+}
+
+.ep-info {
+  font-size: small;
+  margin-top: 0rem;
+  margin-bottom: 0.25rem;
+}
+
+.red-no {
+  color: crimson;
+  font-weight: bold;
+}
+
+.green-no {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.hline {
+  margin: 0.6rem;
+  opacity: 0.69;
+}
+
+#three-fiddy {
+  margin: 0rem;
+}
+
+#bottom {
+  margin: auto;
+  font-size: small;
+  opacity: 0.69;
+  max-width: 48rem;
+}
+
+#donation {
+  color: green;
+  font-weight: bold;
+}
+
+/* lightembed */
+
+.peertube-player {
+  position: relative;
+  width: 18.75rem;
+  height: 9.375rem;
+  overflow: hidden;
+  background: #000;
+}
+
+.peertube-player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.peertube-player img {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  max-width: 100%;
+  width: 100%;
+  right: 0;
+  top: 0;
+  border: none;
+  height: auto;
+  cursor: pointer;
+  -webkit-transition: .4s all;
+  -moz-transition: .4s all;
+  transition: .4s all;
+}
+
+.peertube-player .play {
+  position: absolute;
+  width: 5.25rem;
+  height: 5.25rem;
+  left: 50%;
+  top: 50%;
+  margin-left: -2.625rem;
+  margin-top: -2.625rem;
+  background: url("../img/play.png") no-repeat;
+  cursor: pointer;
+  transform: scale(0.6,0.6);
+}
+
+.peertube-player .play:hover {
+  transform: scale(0.55,0.55);
+}
