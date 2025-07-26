@@ -31,6 +31,7 @@ h3 {
   font-style: italic;
   color: forestgreen;
   word-wrap: normal;
+  hyphens: none;
 }
 
 .title-border {
