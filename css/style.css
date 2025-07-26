@@ -39,11 +39,11 @@ a {
   hyphens: auto;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  color: #ddfffa;
+  color: #b0e3ff;
 }
 
 a:visited {
-  color: #ffffff;
+  color: #50a1d7;
 }
 
 #intro {
@@ -92,11 +92,6 @@ a:visited {
   font-weight: bold;
 }
 
-#three-fiddy, .corrupted {
-  /*margin: 0rem;*/
-  /*font-size: small;*/
-}
-
 #reinstated_list {
   list-style: none;
   padding-left: 0;
@@ -109,7 +104,6 @@ a:visited {
 }
 
 #bottom p {
-  /*font-size: small;*/
   opacity: 0.69;
 }
 
