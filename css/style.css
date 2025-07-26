@@ -6,8 +6,15 @@
   font-family: "Times New Roman", Times, serif, monospace;
 }
 
+
+body {
+  text-align: center;
+  color: lightgrey;
+  background-color: #171717;
+}
+
 h1 a {
-  color:black;
+  color: lightgrey;
   text-decoration: none;
   font-family: sans-serif;
 }
@@ -28,14 +35,15 @@ h3 {
   max-width: 24rem;
 }
 
-body {
-  text-align: center;
-}
-
 a {
   hyphens: auto;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  color: #ddfffa;
+}
+
+a:visited {
+  color: #ffffff;
 }
 
 #intro {
@@ -85,8 +93,8 @@ a {
 }
 
 #three-fiddy, .corrupted {
-  margin: 0rem;
-  font-size: small;
+  /*margin: 0rem;*/
+  /*font-size: small;*/
 }
 
 #reinstated_list {
@@ -101,7 +109,7 @@ a {
 }
 
 #bottom p {
-  font-size: small;
+  /*font-size: small;*/
   opacity: 0.69;
 }
 
