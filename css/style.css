@@ -13,7 +13,7 @@ body {
   background-color: #171717;
 }
 
-h1 a {
+h1 a, #bad_kitty a {
   color: lightgrey;
   text-decoration: none;
   font-family: sans-serif;
