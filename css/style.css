@@ -39,7 +39,7 @@ h3 {
   height: 0.6rem;
   margin-top: -0.75rem;
   background: linear-gradient(90deg, rgba(81,97,172,var(--opacity)) 0%, rgba(81,97,172,var(--opacity)) 25%, rgba(108,192,105,var(--opacity)) 25%, rgba(108,192,105,var(--opacity)) 50%, rgba(226,56,63,var(--opacity)) 50%, rgba(226,56,63,var(--opacity)) 75%, rgba(244,115,33,var(--opacity)) 75%, rgba(244,115,33,var(--opacity)) 100%);
-  max-width: 24rem;
+  max-width: 24.5rem;
 }
 
 a {
