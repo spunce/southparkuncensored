@@ -21,8 +21,8 @@
 
   function labnolIframe() {
     var iframe = document.createElement("iframe");
-    // var embed = "https://vault.mle.party/videos/embed/watch/ID?subtitle=en&autoplay=1";
-    var embed = "https://mega.nz/embed/ID";
+     var embed = "https://peertube.it/videos/embed/ID?subtitle=en&autoplay=1";
+    // var embed = "https://mega.nz/embed/ID";
     iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
     // iframe.setAttribute("sandbox", "allow-same-origin allow-scripts allow-popups");
     // iframe.setAttribute("frameborder", "0");
