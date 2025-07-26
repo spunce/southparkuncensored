@@ -19,12 +19,17 @@ h1 a {
   font-family: sans-serif;
 }
 
+h1 a:visited {
+  color: lightgrey;
+}
+
 h3 {
   margin-bottom: 0;
 }
 
 #uncensored {
   font-style: italic;
+  color: crimson
 }
 
 .title-border {
