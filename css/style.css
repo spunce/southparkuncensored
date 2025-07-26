@@ -30,6 +30,7 @@ h3 {
 #uncensored {
   font-style: italic;
   color: forestgreen;
+  word-wrap: normal;
 }
 
 .title-border {
