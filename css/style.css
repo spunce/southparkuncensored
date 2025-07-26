@@ -95,11 +95,18 @@ a {
   font-size: small;
 }
 
+#reinstated_list {
+  list-style: none;
+}
+
 #bottom {
   margin: auto;
+  max-width: 48rem;
+}
+
+#bottom p {
   font-size: small;
   opacity: 0.69;
-  max-width: 48rem;
 }
 
 #donation {
