@@ -21,12 +21,12 @@
 
   function labnolIframe() {
     var iframe = document.createElement("iframe");
-     var embed = "https://peertube.it/videos/embed/ID?subtitle=en&autoplay=1";
+     var embed = "https://peertube.it/videos/embed/ID?autoplay=1";
     // var embed = "https://mega.nz/embed/ID";
     iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
-    // iframe.setAttribute("sandbox", "allow-same-origin allow-scripts allow-popups");
-    // iframe.setAttribute("frameborder", "0");
+    iframe.setAttribute("sandbox", "allow-same-origin allow-scripts allow-popups");
+    iframe.setAttribute("frameborder", "0");
     iframe.setAttribute("allowfullscreen", "1");
-    // iframe.setAttribute("allow", "encrypted-media; picture-in-picture");
+    iframe.setAttribute("allow", "encrypted-media; picture-in-picture");
     this.parentNode.replaceChild(iframe, this);
   }
