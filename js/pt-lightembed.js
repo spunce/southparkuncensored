@@ -14,7 +14,7 @@
     });
 
   function labnolThumb(id) {
-    var thumb = '<img alt="Thumbnail of banned South Park Episode." src="https://www.southparkuncensored.com/img/South-Park-Movie-1200x676.jpg">',
+    var thumb = '<img alt="Thumbnail of banned South Park Episode." src="https://www.southparkuncensored.com/img/south_park-bigger_longer_uncut-la_resistance.jpg">',
       play = '<div class="play"></div>';
     return thumb/* .replace("ID", id) */ + play;
   }
