@@ -21,7 +21,7 @@
 
   function labnolIframe() {
     var iframe = document.createElement("iframe");
-     var embed = "https://peertube.it/videos/embed/ID?autoplay=1";
+     var embed = "https://www.kotikoff.net/w/ID?autoplay=1";
     // var embed = "https://mega.nz/embed/ID";
     iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
     //iframe.setAttribute("sandbox", "allow-same-origin allow-scripts allow-popups");
