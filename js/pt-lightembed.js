@@ -21,13 +21,14 @@
 
   function labnolIframe() {
     var iframe = document.createElement("iframe");
-     var embed = "https://video.sadmin.io/videos/embed/ID?autoplay=1";
-     // var embed = "https://www.kotikoff.net/videos/embed/ID?autoplay=1";
+    var embed = "https://video.sadmin.io/videos/embed/ID?autoplay=1";
+    // var embed = "https://www.kotikoff.net/videos/embed/ID?autoplay=1";
     // var embed = "https://mega.nz/embed/ID";
     iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
-    //iframe.setAttribute("sandbox", "allow-same-origin allow-scripts allow-popups");
+    iframe.setAttribute("sandbox", "allow-same-origin allow-scripts allow-popups allow-forms");
     iframe.setAttribute("frameborder", "0");
-    iframe.setAttribute("allowfullscreen", "1");
-    iframe.setAttribute("allow", "encrypted-media; picture-in-picture");
+    iframe.setAttribute("allow", "fullscreen; encrypted-media; picture-in-picture");
+    // iframe.setAttribute("allowfullscreen", "1");
+    // iframe.setAttribute("allow", "encrypted-media; picture-in-picture");
     this.parentNode.replaceChild(iframe, this);
   }
